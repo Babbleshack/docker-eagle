@@ -1,7 +1,7 @@
 FROM openjdk:7
 
 RUN apt update \
-        && apt install -y git maven
+        && apt install -y git maven vim
 
 RUN mkdir -v /eagle-scheduler 
 
